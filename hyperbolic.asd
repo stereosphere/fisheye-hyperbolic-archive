@@ -1,7 +1,7 @@
 (asdf:defsystem #:hyperbolic
   :serial t
-   :depends-on (#:lispbuilder-sdl
-		#:lispbuilder-sdl-gfx
+   :depends-on (;;#:lispbuilder-sdl
+		;;#:lispbuilder-sdl-gfx
 		;;#:lispbuilder-sdl-examples
 		;;#:lispbuilder-opengl-examples
 		;;#:cl-opengl
@@ -19,7 +19,7 @@
 	       (:file "draw-sdl")
 	       (:file "svg3")
 	       (:file "svg-draw")
-	       (:file "scene-draw")
+	       ;;(:file "scene-draw")
 	       (:file "animation")
 
 	       (:file "stereographic")
